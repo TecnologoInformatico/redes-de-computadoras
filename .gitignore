@@ -1,2 +1,5 @@
 .vs/*
 .vscode/*
+/desarrolloWeb/node/node_modules/*
+
+*package-lock.json

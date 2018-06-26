@@ -53,3 +53,39 @@ El Socket TCP se identifica por 4 elementos.
 - Número de puerto destino
 
 El host destino utiliza los 4 valores para dirigir el segmento al socket apropiado, el host servidor debe soportar varios sockets TCP simultáneos, en este caso se creará un nuevo socket para cada cliente que se conecta, pero las conexiones siempre serán dirigidas al mismo número de puerto.
+
+## TCP
+
+### Acuerdo en tres fases
+
+- buffers
+- MSS tamaño máximo de segmento (Maximim Segment Size)
+- MTU (Maximum Transmission Unit)
+
+### Segmento TCP
+
+- puerto origen y destino
+- checksum
+- numero de secuencia
+- ventana de recepción
+- longitud de cabecera
+- opciones
+- indicador
+  - URG
+  - ACK
+  - PSH
+  - RST
+  - SYN
+  - FIN
+
+#### Número de secuencia
+
+#### Número de reconocimiento
+
+### Estimación RTT
+
+### Transferencia fiable en TCP
+
+### Control de flujo
+
+### Control de congestión
