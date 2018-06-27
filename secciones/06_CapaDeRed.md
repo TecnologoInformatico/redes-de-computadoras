@@ -166,11 +166,30 @@ Cada iteración local es causada por un cambio en el costo local de un enlace, o
 
 ### Enrutamiento jerárquico
 
-## Enrutamiento en Internet
+En la práctica los algoritmos de enrutamiento se administran de forma jerárquica, de modo que los administradores de red puedan decidir que algoritmos utilizar, además de resultar inviable aplicar un algoritmo de forma global, calcular las rutas a través de la totalidad de Internet sería imposible, sólo la sobrecarga de trafico para difundir las actualizaciones LS de los routers abarcaría gran parte del ancho de banda, además del retardo de propagación de los datos generaría inconsistencias.
 
-### RIP
+Para resolver estos problemas los routers son organizados en sistemas autónomos, los cuales contaran con un control administrativo independiente, utilizando determinado protocolo de enrutamiento interno (*protocolo Intra-AS*).
 
-### OSPF
+Entre los protocolos Intra-AS destacan:
 
-### BGP
+#### RIP
 
+(*Routing Information Protocol*)
+
+- Costos en número de hops (máximo 15)
+- Algoritmo DV
+- Mensajes sobre UDP
+
+#### OSPF
+
+(*Open shortest path first*)
+
+- Algoritmo Link State
+- Se utiliza un inundado de paquetes
+- Mensajes sobre IP
+
+#### BGP
+
+Por su parte para el enrutamiento Inter-AS en Internet se utiliza un protocolo común denominado **Border Gateway Protocol** *(BGP)*. Este protocolo debe proveer buenas rutas hacia otras redes basado en la topología de los AS's y la política utilizada. Además permite a una subred comunicar de su existencia al resto de Internet.
+
+Los algoritmos RIP y OSPF mantienen su principal objetivo en la eficiencia y velocidad de las rutas provistas, el BGP agrega un control de trafico dependiendo de determinadas políticas que no son tan importantes en la configuración interna de un mismo AS.
