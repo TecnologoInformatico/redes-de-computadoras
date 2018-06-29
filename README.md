@@ -9,3 +9,5 @@ Secciones:
 - [03 - Capas de Red](secciones/03_CapasDeRed.md)
 - [04 - Capa de Aplicación](secciones/04_CapaDeAplicacion.md)
 - [05 - Capa de Transporte](secciones/05_CapaDeTransporte.md)
+- [05 - Capa de Red](secciones/06_CapaDeRed.md)
+- [05 - Capa de Enlace](secciones/07_CapaDeEnlace.md)
