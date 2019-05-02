@@ -125,6 +125,58 @@ Otro ejemplo de implementación de este tipo es el caso de los CDN (Content Deli
 
 Un cliente accede a los datos desde un nodo cercano, reduciendo así el tiempo de respuesta y la pérdida de información, y reduciendo la carga de los servidores.
 
+## API
+
+Application Programming Interface
+
+Interfaz mediante la cual un software brinda determinados servicios para ser consumidos por otra aplicación.
+Contiene un conjunto de reglas y especificaciones para que los programas se puedan comunicar.
+
+### Web APIs
+
+Conjunto de Especificaciones que determinan el modo de realizar una petición (request message),
+y la estructura de respuesta que se espera obtener (response).
+
+Usualmente se utiliza el formato XML (Extensible Markup Language) o JSON (JavaScript Object Notation).
+
+#### SOAP
+
+Especificación de protocolo para el intercambio de mensajes.
+Protocolo basado en XML consistente en:
+
+- Una envoltura o sobre, que define la estructura del mensaje y el modo de procesarlo.
+- Un conjunto de reglas para representar instancias de tipos
+- Una convención para representar peticiones y respuestas
+
+Características:
+
+- Expansibilidad
+- Neutralidad (puede operar sobre diversos protocolos como HTTP, SMTP)
+- Independencia
+
+Una de sus mayores desventajas es que la serialización y des serialización de XML puede tener un gran impacto de performances.
+
+#### REST (REpresentational State Transfer)
+
+Mejora la performance, escalabilidad y es más flexible.
+Se utilizan las operaciones disponibles en HTTP
+
+- GET
+- POST
+- PUT
+- DELETE, etc.
+
+Las funcionalidades y los datos son considerados como recursos, accesibles mediantes URIs (Uniform Resource Identifiers)
+
+Ejemplo: `/alumnos/32` (recurso alumno con identificador 32)
+
+Se cumplen determinados principios para que una aplicación sea simple, ligera y rápida.
+
+- Identificación de recursos mediante URI
+- Interfaz uniforme
+- Mensajes auto descriptivos
+- Interacción estática
+
 ## DNS
 
 Los usuarios utilizan nombres fáciles de recordar para acceder a los servicios que brindan los hosts en lugar de la dirección IP. Para que esto sea posible debe existir un sistema que realice una traducción de dichos nombres en las direcciones IP, y esa es la principal tarea del Domain Name System `DNS`.
