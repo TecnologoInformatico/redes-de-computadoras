@@ -56,11 +56,36 @@ El host destino utiliza los 4 valores para dirigir el segmento al socket apropia
 
 ## TCP
 
+Protocolo de la capa de transporte fiable y orientado a la conexión.
+
+Cuenta con:
+
+- Mecanismos de detección de errores
+- Retransmisiones
+- Reconocimientos acumulativos
+- Temporizadores
+- Números de secuencia y de reconocimiento
+
+Se encuentra definido en los RFC’s [793, 1122, 1323, 2018, 2581]
+
 ### Acuerdo en tres fases
 
+Un proceso en el host A desea iniciar una conexión con otro proceso que se ejecuta en el host B.
+
+1. El proceso cliente se comunica con la capa de transporte para que envíe al host B un primer paquete con el campo *SYNchronize*.
+2. El host B recibe el paquete y responde con un paquete *SYNchronize-ACKnowledgement* el cual es recibido por el host A.
+3. Al recibir el *SYN-ACK*, A envía un *ACKnowledge*, el cual podrá contener carga útil y al ser recibido por B dejará establecida una conexión de sockets TCP
+
+En este momento se negocian:
+
 - buffers
-- MSS tamaño máximo de segmento (Maximim Segment Size)
 - MTU (Maximum Transmission Unit)
+- MSS (Maximum Segment Size) tamaño máximo de datos que pueden colocarse en un segmento.
+
+`MSS = MTU – cabecera TCP – cabecera IP`
+
+El valor por defecto del MSS es de 536 bytes, en caso de que se desee setear el valor del MSS en otro valor se debe especificar como una opción TCP en el paquete SYN durante el `handshake`.
+Este valor no podrá ser cambiado luego de que se establezca la conexión.
 
 ### Segmento TCP
 
@@ -80,12 +105,28 @@ El host destino utiliza los 4 valores para dirigir el segmento al socket apropia
 
 #### Número de secuencia
 
+Número del primer byte del segmento dentro del flujo de bytes.
+Si el host A envía vía TCP un archivo de 500.000 bytes, siendo el MSS 1000 bytes numerando el primer byte como 0.
+TCP construirá 500 segmentos a partir del flujo de datos.
+
+- primer segmento 0
+- segundo segmento 1000
+- tercer segmento 2000
+
 #### Número de reconocimiento
+
+Acknowledgement number
+
+Número de secuencia del siguiente byte que el host espera recibir.
+Host A recibe el segmento 0 a 999, responderá con un ACK en el que el número de reconocimiento será 1000.
+
+En caso de que reciba el 2000 a continuación de todos modos enviará un ACK number 1000, dado que TCP maneja reconocimientos acumulativos.
 
 ### Estimación RTT
 
-### Transferencia fiable en TCP
+Para recuperarse de la pérdida de segmentos se debe contar con un mecanismo de retransmisión, y para ello con un temporizador.
+para
+Se genera un RTTMuestra a partir de un segmento transmitido.
 
-### Control de flujo
-
-### Control de congestión
+Esta muestra cambiará cada RTT segundos, y no se calcula en para las retransmisiones, en base a esta muestra se calcula un RTTEstimado.
+El temporizador será mayor o igual que RTTEstimado, pero no menor, ya que se generarían retransmisiones innecesarias ni mucho mayor para poder retransmitir un segmento sin mayor demora.
