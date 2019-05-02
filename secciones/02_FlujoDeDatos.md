@@ -36,6 +36,16 @@ La tasa de transferencia será siempre menor o igual que el ancho de banda.
 - Transmisión
 - propagación
 
+Al llegar los paquetes se realiza un *Procesamiento en el nodo* que cuenta con un chequeo de paridad (CRC, verificación de redundancia cíclica) y a continuación se determinar el enlace de salida (enrutamiento).
+
+Luego se colocan en una cola a espera del enlace de salida para la transmisión, el tiempo que aquí pasen depende del nivel de congestión del router.
+
+A continuación se procede a la transmisión, lo cual también tiene un retardo que dependerá del ancho de banda del enlace y de la longitud del paquete.
+
+Y finalmente el paquete viajará por el medio físico a una velocidad que dependerá de sus capacidades de propagación.
+
+Vale destacar que los paquetes se encolan en los buffers de los routers si la tasa de arribos supera la capacidad del enlace la cola crece. Esto puede generar que se llene el buffer y se comiencen a perder paquetes.
+
 ### Resumen de fórmulas
 
 Sea:
