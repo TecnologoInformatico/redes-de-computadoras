@@ -2,16 +2,21 @@
 
 Notas y conceptos sobre redes de computadoras.
 
-Secciones:
+## Secciones
 
-- [01 - Introducción](secciones/01_Introduccion.md)
-- [02 - Flujo de Datos](secciones/02_FlujoDeDatos.md)
-- [03 - Capas de Red](secciones/03_CapasDeRed.md)
-- [04 - Capa de Aplicación](secciones/04_CapaDeAplicacion.md)
-- [05 - Capa de Transporte](secciones/05_CapaDeTransporte.md)
-- [06 - Capa de Red](secciones/06_CapaDeRed.md)
-  - [Routers](secciones/06_CapaDeRed.md#Routers)
-- [07 - Capa de Enlace](secciones/07_CapaDeEnlace.md)
+### [Introducción](secciones/01_Introduccion.md)
+
+### [Flujo de Datos](secciones/02_FlujoDeDatos.md)
+
+### [Capas](secciones/03_CapasDeRed.md)
+
+#### [Capa de Aplicación](secciones/04_CapaDeAplicacion.md)
+
+#### [Capa de Transporte](secciones/05_CapaDeTransporte.md)
+
+#### [Capa de Red](secciones/06_CapaDeRed.md)
+
+#### [Capa de Enlace](secciones/07_CapaDeEnlace.md)
 
 ## Herramientas
 
