@@ -44,7 +44,7 @@ la primer versión implementada en producción, en ARPANET, es **IPv4** y es la 
 
 La gran cantidad de dispositivos conectados a Internet han agotado las reservas de direcciones provistas por la IANA (Internet Assigned Numbers Authority) por lo que se ha impulsado la implementación de su remplazo IP v6. La nueva versión utiliza direcciones de 128 bits, cabecera de largo fijo de 40 bytes, no permite fragmentación y se eliminó el checksum así como las opciones dentro del cabezal, logrando así además de ampliar el número posible de direcciones de forma astronómica, mejorar el rendimiento del protocolo.
 
-Al ser imposible cambiar el protocolo de un momento a otro ya que aún existen muchos equipos incompatibles, se utilizan técnicas de tunelización, en donde los datagramas IPv6 viajan dentro de la carga útil de datagramas IPv6 en los trechos donde no es posible utilizarlo.
+Al ser imposible cambiar el protocolo de un momento a otro ya que aún existen muchos equipos incompatibles, se utilizan técnicas de tunelización, en donde los datagramas IPv6 viajan dentro de la carga útil de datagramas IPv4 en los trechos donde no es posible utilizarlo.
 
 ### Datagramas
 
