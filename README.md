@@ -18,6 +18,10 @@ Notas y conceptos sobre redes de computadoras.
 
 #### [Capa de Enlace](secciones/07_CapaDeEnlace.md)
 
+#### [Redes inalámbricas](secciones/08_WirelessNetworks.md)
+
+#### [Seguridad](secciones/09_NetworkSecurity.md)
+
 ## Herramientas
 
 ### Sniffers
