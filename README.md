@@ -4,7 +4,7 @@ Notas y conceptos sobre redes de computadoras.
 
 ## TEMAS
 
-1. [Introducción Redes e Internet](#[Introducción-Redes-e-Internet](secciones/01_Introduccion.md))
+1. [Introducción Redes e Internet](#Introducción-Redes-e-Internet)
 2. [Capa de Aplicación](#Capa-de-Aplicación)
 3. [Capa de Transporte](#Capa-de-Transporte)
 4. [Capa de Red](#Capa-de-Red)
@@ -13,9 +13,11 @@ Notas y conceptos sobre redes de computadoras.
 7. [Redes inalámbricas](#Redes-inalámbricas)
 8. [Seguridad](#Seguridad)
 
-## [Introducción Redes e Internet](secciones/01_Introduccion.md)
+## Introducción Redes e Internet
 
 `2 clases`
+
+[Introducción Redes e Internet](secciones/01_Introduccion.md)
 
 Panorama general de lo que se dará en el curso y conceptos básicos sobre que son las redes de computadoras y que es Internet.
 
@@ -25,13 +27,17 @@ Ejercicios prácticos:
 
 Discusión sobre lo que es Internet, sus elementos más importantes y ejercicio sobre protocolo.
 
-### [10/03 - Clase 01 - Introducción Redes e Internet 01](diapositivas/01_Introduccion_parte_1.pdf)
+### 10/03 - Clase 01 - Introducción Redes e Internet 01
 
 Conceptos fundamentales de redes e internet.
 
-### [13/03 - Clase 02 - Introducción Redes e Internet 02](diapositivas/01_Introduccion_parte_2.pdf)
+[📄 PDF Clase 01](https://ev1.utec.edu.uy/moodle/pluginfile.php/204655/mod_resource/content/0/01_Introduccion_parte_1.pdf)
+
+### 13/03 - Clase 02 - Introducción Redes e Internet 02
 
 Medios, retardos, modelos de servicios de las capas y seguridad.
+
+[📄 PDF Clase 02](https://ev1.utec.edu.uy/moodle/pluginfile.php/204656/mod_resource/content/0/02_Introduccion_parte_2.pdf)
 
 -----------------------------------------------------
 
