@@ -4,7 +4,7 @@ Notas y conceptos sobre redes de computadoras.
 
 ## TEMAS
 
-1. [Introducción Redes e Internet](#Introducción-Redes-e-Internet)
+1. [Introducción Redes e Internet](#[Introducción-Redes-e-Internet](secciones/01_Introduccion.md))
 2. [Capa de Aplicación](#Capa-de-Aplicación)
 3. [Capa de Transporte](#Capa-de-Transporte)
 4. [Capa de Red](#Capa-de-Red)
