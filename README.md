@@ -8,6 +8,8 @@ Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitacora de clas
 - RFC.
 - DNS, FTP y protocolos de correo electrónico.
 
+[📄 PDF Clase 04](https://drive.google.com/file/d/1pYYR_maCteSbb13lmL_1DesYGT7b4Ut0/view?usp=sharing)
+
 -----------------------------------------------------
 
 ## Secciones

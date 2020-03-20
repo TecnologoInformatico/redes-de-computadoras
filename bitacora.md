@@ -68,6 +68,8 @@ Programación de socket, inspeccionar transferencia de archivos y cabeceras HTTP
 - RFC.
 - DNS, FTP y protocolos de correo electrónico.
 
+[📄 PDF Clase 04](https://drive.google.com/file/d/1pYYR_maCteSbb13lmL_1DesYGT7b4Ut0/view?usp=sharing)
+
 ### 24/03 - Clase 05 - Capa de Aplicación 03
 
 Arquitecturas, P2P y otros protocolos distribuidos.
