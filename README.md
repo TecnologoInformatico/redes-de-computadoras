@@ -1,6 +1,6 @@
 # Redes de Computadoras
 
-Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitacora de clase](./bitacora.md)
+Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitácora de clase](./bitacora.md)
 
 ## PROXIMA CLASE
 
