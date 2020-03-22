@@ -2,13 +2,15 @@
 
 Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitacora de clase](./bitacora.md)
 
-## 20/03 - Clase 04 - Capa de Aplicación 02
+## PROXIMA CLASE
 
-- Resumen del tema Web y HTTP.
-- RFC.
-- DNS, FTP y protocolos de correo electrónico.
+### 24/03 - Clase 05 - Capa de Aplicación 03
 
-[📄 PDF Clase 04](https://drive.google.com/file/d/1pYYR_maCteSbb13lmL_1DesYGT7b4Ut0/view?usp=sharing)
+- Protocolos de Correo electrónico
+- Arquitecturas
+- P2P y protocolos distribuidos.
+
+[📄 PDF Clase 05](https://drive.google.com/file/d/1cf7dz6HJPrsEJ_Ycm7UBul1_Z9kTcZd8/view?usp=sharing)
 
 -----------------------------------------------------
 

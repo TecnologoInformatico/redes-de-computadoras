@@ -253,3 +253,8 @@ En el caso del campo tipo los valores pueden ser:
 - correo asociado con el nombre.
 
 Entre otros: PTR, SOA, HINFO, TXT, LOC, WKS, SRV, SPF
+
+## Enlaces
+
+- [DNS | Root servers](http://root-servers.org)
+- [DNS | Consultas recursivas e iterativas](https://technet.microsoft.com/en-us/library/cc961401.aspx)
