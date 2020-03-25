@@ -10,6 +10,10 @@ Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitácora de cla
 - Servidor web en nodejs.
 - RFC.
 
+- [nodejs](https://nodejs.org)
+- [Java jdk](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Java jdk - descarga directa sin login](tecnologoinformatico.dilemak.com/java/jdk-11.0.6_windows-x64_bin.exe)
+
 [📄 PDF Clase 06](https://drive.google.com/file/d/1NEgLo5qzOcFq_Bwh7nb8BbsjhbH3YXL9/view?usp=sharing)
 
 -----------------------------------------------------
