@@ -72,7 +72,11 @@ Programación de socket, inspeccionar transferencia de archivos y cabeceras HTTP
 
 ### 24/03 - Clase 05 - Capa de Aplicación 03
 
-Arquitecturas, P2P y otros protocolos distribuidos.
+- Protocolos de Correo electrónico
+- Arquitecturas
+- P2P y protocolos distribuidos.
+
+[📄 PDF Clase 05](https://drive.google.com/file/d/1cf7dz6HJPrsEJ_Ycm7UBul1_Z9kTcZd8/view?usp=sharing)
 
 ### 27/03 - Clase 06 - Capa de Aplicación 04
 

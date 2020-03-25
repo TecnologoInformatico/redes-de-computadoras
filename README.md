@@ -2,15 +2,15 @@
 
 Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitácora de clase](./bitacora.md)
 
-## PROXIMA CLASE
+## PRÓXIMA CLASE
 
-### 24/03 - Clase 05 - Capa de Aplicación 03
+### 27/03 - Clase 06 - Capa de Aplicación 04
 
-- Protocolos de Correo electrónico
-- Arquitecturas
-- P2P y protocolos distribuidos.
+- Programación de sockets en Java.
+- Servidor web en nodejs.
+- RFC.
 
-[📄 PDF Clase 05](https://drive.google.com/file/d/1cf7dz6HJPrsEJ_Ycm7UBul1_Z9kTcZd8/view?usp=sharing)
+[📄 PDF Clase 06](https://drive.google.com/file/d/1NEgLo5qzOcFq_Bwh7nb8BbsjhbH3YXL9/view?usp=sharing)
 
 -----------------------------------------------------
 
