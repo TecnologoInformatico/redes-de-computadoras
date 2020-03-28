@@ -7,6 +7,8 @@ import java.net.*;
 public class ServidorTCP {
 
     public static void main(String[] args) throws Exception {
+        System.out.println("INICIANDO SERVIDOR EN PUERTO 6789");
+        System.out.println("---------------------------------");
         // Se crea un socket para recibir conexiones (de bienvenida)
         ServerSocket socketBienvenida = new ServerSocket(6789);
         boolean cerrarConexion = false;
@@ -26,7 +28,9 @@ public class ServidorTCP {
             );
 
             String fraseCliente = entradaDesdeCliente.readLine();
+            System.out.println("SE HA RECIBIDO UNA CONEXION");
             String fraseEnMayusculas = fraseCliente.toUpperCase() + '\n';
+            System.out.println("Frase del cliente -> " + fraseCliente);
             salidaAlCliente.writeBytes(fraseEnMayusculas);
 
             if (fraseCliente == "exit") {
