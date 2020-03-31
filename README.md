@@ -4,19 +4,23 @@ Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitácora de cla
 
 ## PRÓXIMA CLASE
 
-### 27/03 - Clase 06 - Capa de Aplicación 04
+### 31/03 - Clase 07 - Capa de transporte
 
-- Programación de sockets en Java.
-- Servidor web en nodejs.
-- RFC.
+ Hola, espero que anden bien.
+ En la próxima clase iremos una capa más dentro del stack de Internet, 
+ nos introduciremos en la capa de transporte 🚌, allí nos encontraremos con el protocolo
+ TCP, uno de los pilares de Internet, así como con el UDP, una alternativa sin conexión.
 
-- [nodejs](https://nodejs.org)
-- [Java jdk](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Java jdk - descarga directa sin login](tecnologoinformatico.dilemak.com/java/jdk-11.0.6_windows-x64_bin.exe)
+ También haremos un breve repaso sobre la capa de aplicación, ver los puntos clave.
+ En lo posible tengan un micrófono, o utilicen el celular para hablar, a la vez que miran por la PC.
 
-[📄 PDF Clase 06](https://drive.google.com/file/d/1NEgLo5qzOcFq_Bwh7nb8BbsjhbH3YXL9/view?usp=sharing)
+    ¡Hasta luego!
+ 
+                  
+        📡 Join Zoom Meeting
+        https://zoom.us/j/989010784
 
------------------------------------------------------
+        Meeting ID: 989 010 784
 
 ## Secciones
 

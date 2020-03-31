@@ -80,7 +80,17 @@ Programación de socket, inspeccionar transferencia de archivos y cabeceras HTTP
 
 ### 27/03 - Clase 06 - Capa de Aplicación 04
 
-Programación de sockets.
+- Programación de sockets en Java.
+- Servidor web en nodejs.
+- RFC.
+
+- [nodejs](https://nodejs.org)
+- [Java jdk](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Java jdk - descarga directa sin login](tecnologoinformatico.dilemak.com/java/jdk-11.0.6_windows-x64_bin.exe)
+
+[📄 PDF Clase 06](https://drive.google.com/file/d/1NEgLo5qzOcFq_Bwh7nb8BbsjhbH3YXL9/view?usp=sharing)
+
+-----------------------------------------------------
 
 ### 31/03 - Clase 07 - Capa de Aplicación 05
 
