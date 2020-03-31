@@ -6,21 +6,20 @@ Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitácora de cla
 
 ### 31/03 - Clase 07 - Capa de transporte
 
- Hola, espero que anden bien.
- En la próxima clase iremos una capa más dentro del stack de Internet, 
- nos introduciremos en la capa de transporte 🚌, allí nos encontraremos con el protocolo
- TCP, uno de los pilares de Internet, así como con el UDP, una alternativa sin conexión.
+Hola, espero que anden bien.
+En la próxima clase iremos una capa más dentro del stack de Internet, 
+nos introduciremos en la capa de transporte 🚌, allí nos encontraremos con el protocolo
+TCP, uno de los pilares de Internet, así como con el UDP, una alternativa sin conexión.
 
- También haremos un breve repaso sobre la capa de aplicación, ver los puntos clave.
- En lo posible tengan un micrófono, o utilicen el celular para hablar, a la vez que miran por la PC.
+También haremos un breve repaso sobre la capa de aplicación, ver los puntos clave.
+En lo posible tengan un micrófono, o utilicen el celular para hablar, a la vez que miran por la PC.
 
-    ¡Hasta luego!
- 
-                  
-        📡 Join Zoom Meeting
-        https://zoom.us/j/989010784
+¡Hasta luego!
 
-        Meeting ID: 989 010 784
+    📡 Join Zoom Meeting
+    https://zoom.us/j/989010784
+
+    Meeting ID: 989 010 784
 
 ## Secciones
 
