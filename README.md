@@ -16,10 +16,7 @@ En lo posible tengan un micrófono, o utilicen el celular para hablar, a la vez 
 
 ¡Hasta luego!
 
-    📡 Join Zoom Meeting
-    https://zoom.us/j/989010784
-
-    Meeting ID: 989 010 784
+[📄 PDF Clase 07](https://drive.google.com/file/d/1fArkxrrr6LCmhzDq9wTYuPCkyBeRN-GZ/view?usp=sharing)
 
 ## Secciones
 
