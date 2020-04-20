@@ -3,17 +3,18 @@
 ## Introducción
 
 La capa de red, implementa el **servicio de comunicación host a host**.
-A diferencia de las capas superiores las cuales se encuentran únicamente en los sistemas terminales, la capa de red se encuentra también en el núcleo de la red.
+A diferencia de las capas superiores las cuales se encuentran únicamente en los sistemas terminales, la capa de red se encuentra también en el núcleo de la red. Por otra parte es la capa más baja en encargarse de recibír datos de una computadora a otra, incluso estando estas en redes diferentes.
 
 El host emisor encapsula segmentos en **datagramas**, los routers que se encuentran en la ruta entre ambos hosts examinan los datagramas que reciben.
 En el host destinatario, la capa de red recibe de su router más cercano el datagrama y le entrega el segmento que contiene a la capa de transporte.
 
 Entre las principales tareas:
 
-- Se debe comunicar con la capa de transporte
 - Descubrir la topología de la red
 - Encapsular los datos de la capa de transporte dentro de unidades de datos de la capa de red (datagramas)
 - Manejar la conectividad y el ruteo entre hosts y redes
+
+- Se debe comunicar con la capa de transporte
 - Se debe comunicar con la capa de enlace
 
 ## Redes de circuitos virtuales y de datagramas
@@ -193,3 +194,7 @@ Entre los protocolos Intra-AS destacan:
 Por su parte para el enrutamiento Inter-AS en Internet se utiliza un protocolo común denominado **Border Gateway Protocol** *(BGP)*. Este protocolo debe proveer buenas rutas hacia otras redes basado en la topología de los AS's y la política utilizada. Además permite a una subred comunicar de su existencia al resto de Internet.
 
 Los algoritmos RIP y OSPF mantienen su principal objetivo en la eficiencia y velocidad de las rutas provistas, el BGP agrega un control de trafico dependiendo de determinadas políticas que no son tan importantes en la configuración interna de un mismo AS.
+
+## Enlaces
+
+- [TCP/IP Guide Layer 3](http://www.tcpipguide.com/free/t_NetworkLayerLayer3.htm)

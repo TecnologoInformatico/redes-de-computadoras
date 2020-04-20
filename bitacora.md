@@ -39,6 +39,20 @@ Medios, retardos, modelos de servicios de las capas y seguridad.
 
 [📄 PDF Clase 02](https://ev1.utec.edu.uy/moodle/pluginfile.php/204656/mod_resource/content/0/02_Introduccion_parte_2.pdf)
 
+### 31/03 - Clase 07 - Capa de transporte
+
+Hola, espero que anden bien.
+En la próxima clase iremos una capa más dentro del stack de Internet, 
+nos introduciremos en la capa de transporte 🚌, allí nos encontraremos con el protocolo
+TCP, uno de los pilares de Internet, así como con el UDP, una alternativa sin conexión.
+
+También haremos un breve repaso sobre la capa de aplicación, ver los puntos clave.
+En lo posible tengan un micrófono, o utilicen el celular para hablar, a la vez que miran por la PC.
+
+¡Hasta luego!
+
+[📄 PDF Clase 07](https://drive.google.com/file/d/1fArkxrrr6LCmhzDq9wTYuPCkyBeRN-GZ/view?usp=sharing)
+
 -----------------------------------------------------
 
 ## Capa de Aplicación
@@ -115,15 +129,12 @@ Ejemplo de servidor web TCP, análisis de segmentos mediante sniffers, escaneo d
 
 Introducción a la capa de transporte.
 
-### - Clase 09 - Capa de Transporte 02
+### 14/04 - Clase 09 - Capa de Transporte 02 y 03
 
 Transporte de datos no fiable, UDP.
-
-### - Clase 10 - Capa de Transporte 03
-
 Transporte de datos fiable, diseñando un protocolo propio.
 
-### - Clase 11 - Capa de Transporte 04
+### 17/04 - Clase 10 - Capa de Transporte 04
 
 Transporte de datos fiable TCP.
 
@@ -150,7 +161,7 @@ Router
 
 ### - Clase 15 - Capa de Red 04
 
-Algoritmos de enrutamiento y puesta a punto.
+Algoritmos de enrutamiento, ICMP y puesta a punto.
 
 -----------------------------------------------------
 
