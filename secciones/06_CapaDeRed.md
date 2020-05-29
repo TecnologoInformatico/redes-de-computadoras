@@ -198,3 +198,5 @@ Los algoritmos RIP y OSPF mantienen su principal objetivo en la eficiencia y vel
 ## Enlaces
 
 - [TCP/IP Guide Layer 3](http://www.tcpipguide.com/free/t_NetworkLayerLayer3.htm)
+- [Fragmentación](https://electronicspost.com/ip-datagram-fragmentation-with-example/)
+- [Fragmentación offset](https://ipwithease.com/fragmentation-offset/)

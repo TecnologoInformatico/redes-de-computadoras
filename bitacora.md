@@ -147,21 +147,25 @@ Transporte de datos fiable TCP.
 Objetivo de la capa de red, identificador de red y dispositivos que participan.
 Protocolo IP, DHCP, NAT, protocolos de enrutamiento, ICMP.
 
-### - Clase 12 - Capa de Red 01
+### 21/04 - Clase 12 - Capa de Red 01
 
 Introducción, responsabilidades y arquitectura.
 
-### - Clase 13 - Capa de Red 02
+### 24/04 - Clase 13 - Capa de Red 02
 
 Protocolo IP, DHCP, NAT.
 
-### - Clase 14 - Capa de Red 03
+### 28/04 - Clase 14 - Capa de Red 03
 
 Router
 
-### - Clase 15 - Capa de Red 04
+### 05/05 - Clase 15 - Capa de Red 04
 
 Algoritmos de enrutamiento, ICMP y puesta a punto.
+
+-----------------------------------------------------
+
+### 08/05 - Entrega Laboratorio 01
 
 -----------------------------------------------------
 

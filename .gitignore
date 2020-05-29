@@ -2,6 +2,6 @@
 .vscode/*
 /desarrolloWeb/node/node_modules/*
 diapositivas
-
+lab_*
 *package-lock.json
 *.class
