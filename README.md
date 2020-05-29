@@ -22,6 +22,8 @@ Notas y conceptos sobre redes de computadoras. [👨🏾‍🏫 Bitácora de cla
 
 #### [Seguridad](secciones/09_NetworkSecurity.md)
 
+#### [Navegadores](secciones/18_Browsers.md)
+
 ## Herramientas
 
 ### Sniffers
