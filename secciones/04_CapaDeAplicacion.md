@@ -4,7 +4,7 @@ La capa de aplicación esta formada por programas que se ejecutan en sistemas te
 
 Una aplicación de red consta de parejas de procesos que se envían mensajes entre sí por medio de la red.
 
-    Ejemplo: Un navegador Web Mozilla Firefox comunicándose con un servidor web Apache.
+*Ejemplo: Un navegador Web Mozilla Firefox comunicándose con un servidor web Apache.*
 
 Por lo general esta interacción se realiza de modo en que un host realiza una petición y utiliza un servicio brindado por otro host, donde al que realiza la petición (inicia la comunicación), se le llamará cliente y al que brinda el servicio (espera la comunicación de un proceso cliente), servidor. En el ejemplo anterior el navegador funciona como programa cliente y el servidor Apache tal como su nombre lo indica, de servidor.
 
@@ -61,6 +61,10 @@ Cada objeto es identificable por una dirección URL (Uniform Resource Locator). 
 
 Los mensajes intercambiados se pueden clasificar como pedidos (request) y respuestas (response).
 
+### request
+
+![http request](./img/03_http_request.gif)
+
 Ejemplo de request:
 
 ```HTTP
@@ -70,6 +74,10 @@ User-agent: Mozilla/4.0
 Connection: close
 Accept-language: es
 ```
+
+### response
+
+![http request](./img/03_http_response.gif)
 
 Ejemplo de response:
 
@@ -90,11 +98,61 @@ Al momento de la realización de las peticiones se utiliza un conjunto de métod
 - PUT
 - DELETE
 
-El método GET es utilizado para solicitar datos, las peticiones realizadas a través de este método pueden ser cacheadas y almacenadas en el historial del navegador. No es utilizado para el envío de datos sensibles, como credenciales, por el hecho de que los parámetros viajan en la ruta, por otro lado eso mismo lo hace muy útil para ser utilizado en filtros.
+El método **GET** es utilizado para solicitar datos, las peticiones realizadas a través de este método pueden ser cacheadas y almacenadas en el historial del navegador. No es utilizado para el envío de datos sensibles, como credenciales, por el hecho de que los parámetros viajan en la ruta, por otro lado eso mismo lo hace muy útil para ser utilizado en filtros.
 
-Por su parte el método POST, es utilizado para el registro de datos, la información enviada viaja en el cuerpo del mensaje y no tiene limites de tamaño. en este caso las peticiones nunca son cacheadas.
+Por su parte el método **POST**, es utilizado para el registro de datos, la información enviada viaja en el cuerpo del mensaje y no tiene limites de tamaño. en este caso las peticiones nunca son cacheadas.
 
 Las peticiones son respondidas por parte del servidor junto a un [código de estado](https://developer.mozilla.org/es/docs/Web/HTTP/Status "Códigos de estado de respuesta HTTP") que indica si el procedimiento fue exitoso o no. Las respuestas se agrupan en cinco clases: respuestas informativas, respuestas satisfactorias, redirecciones, errores de los clientes y errores de los servidores.
+
+### Códigos de estado
+
+#### Respuestas informativas
+
+100 Continue
+
+Esta respuesta provisional indica que todo hasta ahora está bien y que el cliente debe continuar con la solicitud o ignorarla si ya está terminada.
+
+101 Switching Protocol
+
+Este código se envía en respuesta a un encabezado de solicitud Upgrade por el cliente e indica que el servidor acepta el cambio de protocolo propuesto por el agente de usuario.
+
+102 Processing
+
+Este código indica que el servidor ha recibido la solicitud y aún se encuentra procesandola, por lo que no hay respuesta disponible.
+
+#### Respuestas satisfactorias
+
+200 OK
+
+La solicitud ha tenido éxito. El significado de un éxito varía dependiendo del método
+
+201 Created
+
+La solicitud ha tenido éxito y se ha creado un nuevo recurso como resultado de ello. Ésta es típicamente la respuesta enviada después de una petición PUT.
+
+202 Accepted
+
+La solicitud se ha recibido, pero aún no se ha actuado.
+
+#### Redirecciones
+
+301 Moved Permanently
+
+La respuesta indica que la URI de la petición ha cambiado, posiblemente se incluya en la respuesta la nueva ubicación.
+
+#### Errores de cliente
+
+400 Bad Request
+
+El servidor no puede entender la petición o contiene una sintaxis inválida
+
+404 Not Found
+
+El recurso no ha sido encontrado
+
+#### Errores de servidor
+
+500 Internal Server Error
 
 ### Cookies
 
@@ -121,9 +179,13 @@ Esto puede ser muy útil para ahorrar ancho de banda para proveedores de servici
 
 Se puede configurar el navegador para que acceda mediante chaché. El navegador envía todos los pedidos al  caché, si el objeto se encuentra se devuelve del caché Si no se encuentra se obtiene del cliente original, se guarda en el server proxy y se devuelve al usuario.
 
+![Proxy server](./img/03_proxy_server.gif)
+
 Otro ejemplo de implementación de este tipo es el caso de los CDN (Content Delivery Network), en el que se cuenta con una copia de los datos de forma distribuida en distintos puntos de la red.
 
 Un cliente accede a los datos desde un nodo cercano, reduciendo así el tiempo de respuesta y la pérdida de información, y reduciendo la carga de los servidores.
+
+![CDN](./img/03_cdn.png)
 
 ## API
 
@@ -199,6 +261,8 @@ DNS también es utilizado para distribuir la carga de un sitio distribuido. En c
 
 ### Jerarquía
 
+![jerarquía DNS](./img/04_jerarquia_dns.png)
+
 La base de datos está distribuida al rededor de todo el mundo y de forma jerarquizada. Ningún servidor cuenta con todos los registros, sino que existen distintos niveles de dominio.
 
 Por ejemplo, se desea acceder al sitio www.tecnologo.com. En primer lugar el cliente deberá recurrir a uno de los servidores raíz, este le devuelve las direcciones IP para los servidores TLD .com. Al consultar uno de estos servidores se retornará la dirección o las direcciones IP de un servidor autoritativo para tecnologo.com. Así el cliente puede consultar a uno de los servidores autoritativos para tecnologo.com el cual le devolverá la IP correspondiente al host www.tecnologo.com.
@@ -218,6 +282,14 @@ Las organizaciones que cuenten con hosts accesibles desde Internet deben proporc
 #### Servidor DNS local
 
 Fuera de la jerarquía antes mencionada existen servidores DNS locales mantenidos por los proveedores de servicios, de este modo el servidor local puede resolver consultas realizadas por los usuarios, almacenar las respuestas en el caché y brindar una respuesta más rápida en próximas peticiones. De este modo actúa como proxy, reenvía la consulta a la jerarquía de ser necesario.
+
+### Resolución iterativa
+
+![jerarquía DNS](./img/04_dns_iterativa.png)
+
+### Resolución recursiva
+
+![jerarquía DNS](./img/04_dns_recursiva.png)
 
 ### Registros DNS
 

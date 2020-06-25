@@ -1,6 +1,6 @@
 # Browsers, navegadores web
 
-![Navegadores Web](img/main-desktop-browser-logos.png)
+![Navegadores Web](./img/main-desktop-browser-logos.png)
 
 Los navegadores web son el más común punto de acceso a la web para muchos usuarios.
 
@@ -35,13 +35,13 @@ Existen especificaciones `HTML` y `CSS` para determinar el modo en que un navega
 
 Durante años los navegadores implementaban sólo una parte de las especificaciones, y a su vez desarrollaban sus propias extensiones, lo que causaba serios problemas de compatibilidad, y grandes dolores de cabeza para los desarrolladores web.
 
-![Browser wars](img/Browser_Wars.png)
+![Browser wars](./img/Browser_Wars.png)
 
 Hoy en día la mayoría de los navegadores se implementan de un modo mayor o menor siguiendo las especificaciones estandarizadas.
 
 Hay varios sitios donde se puede hacer un relevamiento de si determinadas features son implementadas en determinado navegador, por ejemplo [caniuse.com](https://caniuse.com/) o en los distintos artículos de [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text#Browser_compatibility).
 
-![Tabla de comparación de compatibilidad](img/browsers_compatibility.png)
+![Tabla de comparación de compatibilidad](./img/browsers_compatibility.png)
 
 La interfaz de los navegadores suele tener unas características comunes en todos, entre estos elementos se encuentran:
 
@@ -57,7 +57,7 @@ En la especificación de HTML5 sin embargo se mencionan elementos comunes que lo
 
 ## Estructura
 
-![Capas del navegador](img/18_01_layers.png)
+![Capas del navegador](./img/18_01_layers.png)
 
 ### La interfaz de usuario
 
@@ -96,7 +96,7 @@ RFC 3986:
 
 Por lo tanto, todas las **URL**s son **URI**s, o casi siempre, y todas las **URN**s son **URI**s.
 
-![URI](img/uri.png)
+![URI](./img/uri.png)
 
 - **URI** => **Uniform Resource Identifier**, dirección completa de un recurso.
   - `https://www.fing.edu.uy/tecnoinf/sanjose/index.html`

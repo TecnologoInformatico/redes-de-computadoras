@@ -166,3 +166,7 @@ IPsec brinda a nivel de capa de red:
 - Integridad de datos
 - Confidencialidad de datos
 - Protección ante ataques de reenvío `replay protection`.
+
+## Enlaces
+
+- [Diffie Hellman in plain english](https://security.stackexchange.com/questions/45963/diffie-hellman-key-exchange-in-plain-english)
