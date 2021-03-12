@@ -1,7 +1,7 @@
 .vs/*
 .vscode/*
 /desarrolloWeb/node/node_modules/*
-diapositivas
+#diapositivas
 private
 lab_*
 *package-lock.json
