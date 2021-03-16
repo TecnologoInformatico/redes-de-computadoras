@@ -1,6 +1,6 @@
 # Redes de Computadoras
 
-## [16/03 - Capa de Aplicación](secciones/04_CapaDeAplicacion.md)
+## [16/03 - Capa de Aplicación](secciones/03_CapaDeAplicacion.md)
 
 - 🖨️ [03 - Capa de Aplicación I](/redes-de-computadoras/diapositivas/03_capa_de_aplicacion-1.pdf)
 
