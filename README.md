@@ -2,7 +2,7 @@
 
 ## [16/03 - Capa de Aplicación](secciones/04_CapaDeAplicacion.md)
 
-- [03 - Capa de Aplicación I](/redes-de-computadoras/diapositivas/03_capa_de_aplicacion-1.pdf)
+- 🖨️ [03 - Capa de Aplicación I](/redes-de-computadoras/diapositivas/03_capa_de_aplicacion-1.pdf)
 
 Esta capa es la encargada de otorgar acceso al usuario o al software a la red.
 
@@ -12,11 +12,11 @@ Algunos servicios provistos por esta red son: E-mail, transferencia de archivos,
 
 ## [12/03 - Introducción](secciones/02_FlujoDeDatos.md)
 
-- [02 - Introducción II](/redes-de-computadoras/diapositivas/02_Introduccion-2.pdf)
+- 🖨️ [02 - Introducción II](/redes-de-computadoras/diapositivas/02_Introduccion-2.pdf)
 
 ## [09/03 - Introducción](secciones/01_Introduccion.md)
 
-- [01 - Introducción I](/redes-de-computadoras/diapositivas/01_Introduccion-1.pdf)
+- 🖨️ [01 - Introducción I](/redes-de-computadoras/diapositivas/01_Introduccion-1.pdf)
 
 Internet es una red de computadoras que interconecta a millones de dispositivos informáticos a lo largo del mundo.
 
