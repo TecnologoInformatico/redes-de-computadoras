@@ -1,5 +1,8 @@
 # Redes - Introducción
 
+- 🖨️ [01 - Introducción parte 1](https://tecnologoinformatico.github.io/redes-de-computadoras/diapositivas/01_Introduccion-1.pdf)
+- 🖨️ [02 - Introducción parte 2](https://tecnologoinformatico.github.io/redes-de-computadoras/diapositivas/02_Introduccion-2.pdf)
+
 Internet es una red de computadoras que interconecta a millones de dispositivos informáticos a lo largo del mundo.
 
 A diferencia de la red telefónica, que durante años en la mayoría de los países estuvo a cargo de una sola compañía, Internet global consiste en decenas de miles de redes interconectadas operadas por proveedores de servicios, compañías individuales, universidades, gobiernos y otros.
